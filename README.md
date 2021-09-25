@@ -1,2 +1,53 @@
-# Thyroid-Prediction-System
-Thyroid disease is a major cause of formation in medical diagnosis and in the prediction, onset to which it is a difficult axiom in the medical research. Thyroid gland is one of the most important organs in our body. The secretions of thyroid hormones are culpable in controlling the metabolism. Hyperthyroidism and hypothyroidism are one of the two common diseases of the thyroid that releases thyroid hormones in regulating the rate of body’s metabolism. Data cleansing techniques were applied to make the data primitive enough for performing analytics to show the risk of patients obtaining thyroid. The machine learning plays a decisive role in the process of disease prediction and this paper handles the analysis and classification models that are being used in the thyroid disease based on the information gathered from the dataset taken from many website. It is important to ensure a decent knowledge base that can be entrenched and used as a hybrid model in solving complex learning task, such as in medical diagnosis and prognostic tasks. In this paper, we also proposed different machine learning techniques and diagnosis for the prevention of thyroid. Machine Learning Algorithms, Random forest were used to predict the estimated risk on a patient’s chance of obtaining thyroid disease.
+# Thyroid-Prediction
+
+## Table of Content
+  * [Link](#link)
+  * [Overview](#overview)
+  * [Installation](#installation)
+  * [Directory Tree](#directory-tree)
+  * [Deployement on Heroku](#deployement-on-heroku)
+  * [Technologies used](#technologies-used)
+  * [Future scope of project](#future-scope)
+
+## Link
+Link: [https://thyroid-prediction-api.herokuapp.com/](https://thyroid-prediction-api.herokuapp.com/)
+
+## Overview
+This is a Flask web app which predicts the Thyroid prediction.
+
+## Installation
+The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
+pip install -r requirements.txt
+```
+
+## Directory Tree 
+```
+├── template
+│   ├── home.html
+├── Procfile
+├── README.md
+├── app.py
+├── Thyroid Detection.ipynb
+├── thyroid_model.pkl
+├── requirements.txt
+```
+
+## Deployement on Heroku
+Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+
+Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+
+## Future Scope
+
+* Use multiple Algorithms
+* Optimize Flask app.py
+* Front-End 
